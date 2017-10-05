@@ -6,13 +6,23 @@
     "notes": "For a short time perhaps. Making the friendship last requires that you find each other at least vaguely repulsive. Good luck!"
     }, {
 
-      "author": "Jane",
-      "question": "Why do married folks begin to look like one another?",
-      "notes": "Watch any two people who like each other talking, and you’ll see a lot of mirroring. One smiles, and so does the other. One nods or raises her eyebrows, and so does the other."
+    "author": "Jane",
+    "question": "Why do married folks begin to look like one another?",
+    "notes": "Watch any two people who like each other talking, and you’ll see a lot of mirroring. One smiles, and so does the other. One nods or raises her eyebrows, and so does the other."
     }, {
 
-      "author": "Sam",
-      "question": "Do animals really have a sixth sense?",
-      "notes": "A box jellyfish has 24 eyes, an earthworm’s entire body is covered with taste receptors, a cockroach can detect movement 2,000 times the diameter of a hydrogen atom"
+    "author": "Sam",
+    "question": "Do animals really have a sixth sense?",
+    "notes": "A box jellyfish has 24 eyes, an earthworm’s entire body is covered with taste receptors, a cockroach can detect movement 2,000 times the diameter of a hydrogen atom"
+    }],
+  "answers":[{
+    "author": "Tom",
+    "content": "When it comes to happiness, only people you love, and who love you, can bring it. If you have enough dough to buy yourself a luxurious yacht, but no real friends to sail with, you’re sunk."
+    }, {
+    "author": "Potter",
+    "content": "It’s safe to say that animals experience a much different world than we do."
+    }, {
+    "author": "Wayne",
+    "content": "When you’re in the fast line, unfettered by stress, you don’t even notice the poor schlubs in the slow lane. Good luck rarely commands one’s attention like bad luck."
     }]
 }

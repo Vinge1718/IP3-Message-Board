@@ -4,9 +4,16 @@
 <p>You think you have answers? Ever encountered a similar issue? Share</p>
 
 <ul>
-  {{#each model as |message|}}
+  {{#each model.messages as |message|}}
     {{message-tile message=message}}
   {{/each}}
 </ul>
 
 {{new-message saveMessage2="saveMessage3"}}
+
+<h3>Contributions</h3>
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.author}} sees it like this, {{answer.content}}</li>
+  {{/each}}
+</ul>
