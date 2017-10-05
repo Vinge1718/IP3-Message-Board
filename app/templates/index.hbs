@@ -5,6 +5,8 @@
 
 <ul>
   {{#each model as |message|}}
-    <li>{{message.author}} asks: {{message.question}}</li>
+    {{message-tile message=message destroyMessage="destroyMessage"}}
   {{/each}}
 </ul>
+
+{{new-message saveMessage2="saveMessage3"}}
