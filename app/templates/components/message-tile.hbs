@@ -1,5 +1,6 @@
 <li>
   {{message.author}} asks: {{message.question}}
   <br>
+  {{update-message message=message update="update"}}
   <button {{action 'delete' message}}>Delete Question</button>
 </li>
