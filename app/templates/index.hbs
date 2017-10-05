@@ -1,0 +1,10 @@
+<h2>Ask and it shall be answered!</h2>
+
+<p>Have any pressing issue? - ask.</p>
+<p>You think you have answers? Ever encountered a similar issue? Share</p>
+
+<ul>
+  {{#each model as |message|}}
+    <li>{{message.author}} asks: {{message.question}}</li>
+  {{/each}}
+</ul>
