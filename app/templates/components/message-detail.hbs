@@ -1,3 +1,11 @@
 {{message.author}} reasons that since {{message.notes}}. {{message.question}}
 <br>
+
+<h3>Answers/Thoughts</h3>
+<ul>
+  {{#each message.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</ul>
+
 <button {{action 'delete' message}}>Delete Question</button>
