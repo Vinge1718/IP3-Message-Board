@@ -1,5 +1,17 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="container">
+  <header class="jumbotron">
+    <h1 style="text-align:center;">Message Board</h1>
+  </header>
+  {{#link-to "index"}}Home{{/link-to}}
+  <br>
+  {{#link-to "about"}}About{{/link-to}}
+  <br>
+  {{#link-to "contact"}}Contacts{{/link-to}}
 
-{{outlet}}
+  {{outlet}}
+  
+  <br>
+  <footer>
+    Copyright © 2017 Message Boards, Inc. All rights reserved.
+  </footer>
+</div>
