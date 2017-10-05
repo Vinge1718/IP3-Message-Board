@@ -1,6 +1,6 @@
 <li>
-  {{message.author}} asks: {{message.question}}
+  {{#link-to "message" message.id}}{{message.author}} asks: {{message.question}}{{/link-to}}
   <br>
-  {{update-message message=message update="update"}}
-  <button {{action 'delete' message}}>Delete Question</button>
+
+
 </li>
