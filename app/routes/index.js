@@ -7,11 +7,16 @@ export default Ember.Route.extend({
       answers: this.store.findAll("answer")
     });
   },
-
-  saveMessage3(params){
-    var newMessage = this.store.createRecord("message", params);
-    newMessage.save();
-    this.transitionTo("index");
+  actions:{
+    saveMessage3(params){
+      var newMessage = this.store.createRecord("message", params);
+      newMessage.save();
+      this.transitionTo("index");
+    },
+    saveAnswer(params){
+      var newAnswer = this.store.createRecord("answer",params);
+      newAnswer.save();
+      this.transitionTo("index");
+    }
   }
-
 });
